@@ -1,0 +1,16 @@
+run the application 
+
+open postman 
+
+get : localhost:8080/api/product/view
+
+post :  localhost:8080/api/product/create
+
+{
+        "productId": 1,
+        "productName": "Iphone X",
+        "brand": "apple",
+        "price": "56000"
+    }
+
+delete : localhost:8080/api/product/delete/1
